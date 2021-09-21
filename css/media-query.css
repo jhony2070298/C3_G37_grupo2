@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px){
+    /*Pagina de Inicio */
+    .social-icons{
+        width: 100%;
+        padding: 0 5px 0;
+        margin: 0;
+    }
+    .nav-logo{
+        display: flex;
+        align-items: center;
+    }
+    .nav-logo, .nav-link{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .nav-logo img{
+        width: 150px;
+    }
+
+    .main-container__text{
+        font-size: 25px;
+    }
