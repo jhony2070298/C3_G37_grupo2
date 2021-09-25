@@ -1,0 +1,59 @@
+<form action="#" method="post" target="_blank">
+    <label for="fecha">Fecha</label>
+    <input type="date" name="fecha" id="fecha">
+    <br>
+    <label for="documento">Buscar documento</label>
+    <input type="search" name="documento" id="documento">
+    <br>
+    <table class="tabla candidatos">
+        <tr>
+          <th>Documento</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Ciudad</th>
+          <th>Fecha solicitada</th>
+          <th>Estado</th>
+          <th colspan="2">Acción</th>
+        </tr>
+        <tr>
+          <td>322345</td>
+          <td>Julieta</td>
+          <td>Gomez</td>
+          <td>Medellin</td>
+          <td>14 Jun 2021</td>
+          <td>Aprobado</td>
+          <td><button onclick="parent.location.href='../pages/editar.html'">Editar</button></td>
+          <td><button>Eliminar</button></td>
+        </tr>
+        <tr>
+            <td>156747</td>
+            <td>Alex</td>
+            <td>Mendez</td>
+            <td>Barranquilla</td>
+            <td>24 Jun 2021</td>
+            <td>Rechazado</td>
+            <td><button>Editar</button></td>
+            <td><button>Eliminar</button></td>
+          </tr>
+          <tr>
+            <td>253769</td>
+            <td>Sara</td>
+            <td>Perez</td>
+            <td>Bucaramanga</td>
+            <td>26 Jun 2021</td>
+            <td>Pendiente</td>
+            <td><button>Editar</button></td>
+            <td><button>Eliminar</button></td>
+          </tr>
+          <tr>
+            <td>235678</td>
+            <td>Erika</td>
+            <td>Pinillos</td>
+            <td>Bogotá</td>
+            <td>30 Jun 2021</td>
+            <td>Aprobado</td>
+            <td><button>Editar</button></td>
+            <td><button>Eliminar</button></td>
+          </tr>
+        </table>
+</form>
