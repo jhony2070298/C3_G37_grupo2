@@ -36,8 +36,18 @@
             <label for="nombre">Fecha Solicitada :</label> <label for="nombre">14 jun 2021</label>
         </div>
         <div>
-            <label for="nombre">Estado :</label> 
-            <input type="text" name="nombre" id="nombre" placeholder="Aprobado">
+            <p>Estado</p>
+            <label for="aprobado">Aprobado</label>
+            <input type="radio" name="aprobado" id="aprobado">
+            <label for="rechazado">Rechazado</label>
+            <input type="radio" name="rechazado" id="rechazado">
+            <label for="pendiente">Pendiente</label>
+            <input type="radio" name="pendiente" id="pendiente">
+        </div>
+        <div>
+            <br>
+            <button type="submit" onclick="parent.location.href='#'" target="_parent">Cancelar</button>  
+            <button type="submit" onclick="parent.location.href='#'" target="_parent">Guardar Cambios</button>
         </div>
     </div>    
     </body>
