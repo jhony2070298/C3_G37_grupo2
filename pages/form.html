@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Formulario</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="menu_bar">
+            <div class="col">
+                <a class="menu_item" href="" id="menu_item">Linguaskill  Cambridge</a>
+            </div>
+            <div class="col">
+                <a class="menu_item" href="">Inicio</a>
+            </div>
+            <div class="col">
+                <a class="menu_item" href="">Registrarse</a>
+            </div>
+            <div class="col">
+                <a class="menu_item" href="">Cerrar Sesión</a>
+            </div>
+           
+
+        </div>
+        <!-- imagenes -->
+        <div class="row_img">
+            <div class="col_50 align-left"><img class="ih" src="/img/logo_ih.jpg"></div>
+            <div class="col_50 align-right"><img class="linguaskill" src="/img/logo_linguaskill.jpg"></div>
+        </div>
+
+
+        <!-- titulo -->
+        <div class="title">
+            <h2>Formulario de Inscripción</h2>
+        </div>
+
+        <!-- campos -->
+
+        <div class="container_form">
+            <div class="row_form">
+                <div class="col_form_lbl"><label for="nombres" class="txt_lbl">Nombres</label></div>
+                <div class="col_form_inp"><input type="text" name="nombres" id="nombres" placeholder="Escriba su Nombre" class="txt_inp"></div>
+                <div class="col_form_lbl"><label for="apellidos" class="txt_lbl">Apellidos</label></div>
+                <div class="col_form_inp"><input type="text" name="apellidos" id="apellidos" placeholder="Escriba su Apellido" class="txt_inp"></div>
+            </div>
+            <div class="row_form">
+                <div class="col_form_lbl"><label for="documento"  class="txt_lbl">Documento</label></div>
+                <div class="col_form_inp"><input type="text" name="documento" id="documento" placeholder="Escriba su Numero de Documento" class="txt_inp"></div>
+                <div class="col_form_lbl"><label for="email" class="txt_lbl">Email</label></div>
+                <div class="col_form_inp"><input type="text" name="email" id="email" placeholder="ejemplo@prueba.com" class="txt_inp"></div>
+            </div>
+            <div class="row_form">
+                <div class="col_form_lbl"><label for="direccion" class="txt_lbl">Dirección</label></div>
+                <div class="col_form_inp"><input type="text" name="direccion" id="direccion" placeholder="Escriba su Dirección" class="txt_inp"></div>
+                <div class="col_form_lbl"><label for="telefono" class="txt_lbl">Teléfono</label></div>
+                <div class="col_form_inp"><input type="text" name="telefono" id="telefono" placeholder="Escriba su Numero de Teléfono" class="txt_inp"></div>
+            </div>
+            <div class="row_form_ind">
+                <div class="col_form_lbl_ind"><label for="institucion" class="txt_lbl_ind">Institución a la que va dirigido el examen </label></div>
+                <div class="col_form_inp_ind"><input type="text" name="institucion" id="institucion" placeholder="Nombre de la Institución"  class="txt_inp_ind"></div>
+            </div>
+            <div class="row_opttion">
+                <div class="col_form_opt">
+                    <div class="col_form_lbl"><label for="tipo_examen" class="txt_lbl">Que tipo de examen va a realizar</label></div>
+                    <input type="radio" name="General" value=1>Linguaskill General
+                    <input type="radio" name="Business" value=2>Linguaskill Business
+                </div>
+            </div>
+            <div class="row_opttion">
+                <div class="col_form_opt">
+                    <div class="col_form_lbl"><label for="modulos" class="txt_lbl">Módulos a realizar</label></div>
+                    <input type="radio" name="tres_modulos" value=1>Tres Módulos
+                    <input type="radio" name="dos_modulos" value=2>Dos Módulos
+                    <input type="radio" name="un_modilo" value=3>Un Módulo  
+                </div>
+            </div>
+            <div class="row_date">
+                <div class="col_form_lbl"><label for="fecha_exam" class="txt_lbl">Fecha del Examen</label></div>
+                <div class="col_form_inp"><input type="date" name="fecha_exam" id="fecha_exam" class="txt_inp"></div>
+                <div class="col_form_lbl"><label for="hora" class="txt_lbl">Hora</label></div>
+                <div class="col_form_inp"><input type="time" name="hora" id="hora" class="txt_inp"></div>
+            </div>
+
+            <div class="row_cargar_arch">
+                <div class="cargar_doc">
+                    <div class="col_form_lbl"><label for="archivo_documento" class="txt_lbl">Cargar Documento de Identidad</label></div>
+                    <div class="col_50 align-left"><img class="archivo" src="/img/subir_archivos.jpg"></div>
+                    <div class="col_form_inp"><input type="file" name="archivo_documento" id="archivo_documento" class="upload_doc"></div>
+                </div>
+                <div class="cargar_pago">
+                    <div class="col_form_lbl"><label for="archivo_pago" class="txt_lbl">Cargar Evidencia de Pago</label></div>
+                    <div class="col_50 align-left"><img class="archivo" src="/img/subir_archivos.jpg"></div>
+                    <div class="col_form_inp"><input type="file" name="archivo_pago" id="archivo_pago" class="upload_pago"></div>
+                </div>
+                <div class="cargar_pago">
+                    <div class="col_form_lbl"><label for="archivo_foto" class="txt_lbl">Cargar Foto del Candidato</label></div>
+                    <div class="col_50 align-left"><img class="archivo" src="/img/subir_archivos.jpg"></div>
+                    <div class="col_form_inp"><input type="file" name="archivo_pago" id="archivo_foto" class="upload_foto"></div>
+                </div>
+
+            </div>
+            
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
