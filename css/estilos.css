@@ -1,0 +1,27 @@
+
+
+.mi-form{
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.Register{
+  width: 70%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.img_ih{
+  margin-left: 20px;
+}
+
+p{
+  color: aliceblue;
+  margin-left: 20px;
+  text-align: right;
+}
