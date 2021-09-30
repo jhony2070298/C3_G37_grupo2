@@ -32,7 +32,8 @@ p{
   justify-content: flex-end;
   margin-right: 50px;
   margin-left: 50px;
-
+ 
+  justify-self: end;
 }
 /*.nav-link{
   display: flex;
@@ -45,3 +46,21 @@ label{
   display: inline-block;
   width: 80px;
 }
+.container{
+  height: 0px;
+  margin-top: 0px;
+}
+.jumbotron{
+  height: 87px;
+  margin-top: 0px;
+  padding: 1px;
+  margin-bottom: 60px;
+  
+}  
+
+.navbar{
+  /*margin: 0px 5px 0px 0px;*/
+  padding: 15px 5px 5px 5px;
+  height: 70px;
+}
+
