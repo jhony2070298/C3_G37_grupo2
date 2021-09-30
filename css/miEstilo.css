@@ -25,3 +25,23 @@ p{
   margin-left: 20px;
   text-align: right;
 }
+
+.mi-lista{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+/*.nav-link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-left: 50px;
+}*/
+label{
+  display: inline-block;
+  width: 80px;
+}
