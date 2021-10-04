@@ -1,0 +1,21 @@
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+    justify-self: end;
+}
+
+.btn-cerrar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mi-table{
+    margin-left: 50px;
+    margin: 50px
+}
