@@ -3,27 +3,15 @@
   padding: 15px 5px 5px 5px;
   /* height: 70px; */
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 15f5555018d49fa9dbba3c7fe2cf69c6394594f9
 .mi-lista{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-<<<<<<< HEAD
-  margin-right: 50px;
-  margin-left: 50px;
- 
-  justify-self: end;
-}
-=======
-  margin-right: 10px;
-  margin-left: 10px;
-  justify-self: end;
+  margin-right: 5px;
+  margin-left: 5px;
+  /* justify-self: end; */
 }
 
->>>>>>> 15f5555018d49fa9dbba3c7fe2cf69c6394594f9
 p{
   color: aliceblue;
   margin-left: 20px;
