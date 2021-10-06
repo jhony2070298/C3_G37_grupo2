@@ -14,34 +14,43 @@
 
     </head>
     <body>
-        <div class="container">
+        <div class="col-12 container">
             <div class="container_form">
-                <div class="row pt-4">
-                    <div class="col-3 pl-5 text-left"><label for="nombres" class="txt_lbl">Nombres</label></div>
-                    <div class="col-3 pl-0"><input type="text" name="nombres" id="nombres" placeholder="Escriba su Nombre" class="txt_inp"></div>
-                    <div class="col-2 pl-5 text-left"><label for="apellidos" class="txt_lbl">Apellidos</label></div>
-                    <div class="col-3 pl-0"><input type="text" name="apellidos" id="apellidos" placeholder="Escriba su Apellido" class="txt_inp"></div>
+                <div class="row pt-4 py-4" >
+                    <div class="col-3 pr-5 text-right"><label for="nombres" class="txt_lbl">Nombres</label></div>
+                    <div class="col-3 "><input type="text" name="nombres" id="nombres" placeholder="Escriba su Nombre" class="form-control"></div>
+                    <div class="col-2 pr-5 text-right"><label for="apellidos" class="txt_lbl">Apellidos</label></div>
+                    <div class="col-3 "><input type="text" name="apellidos" id="apellidos" placeholder="Escriba su Apellido" class="form-control"></div>
                 </div>
-                <div class="row pt-3">
-                    <div class="col-3 pl-5 text-left "><label for="documento"  class="txt_lbl">Documento</label></div>
-                    <div class="col-3 pl-0 "><input type="text" name="documento" id="documento" placeholder="Escriba su Numero de Documento" class="txt_inp"></div>
-                    <div class="col-2 pl-5 text-left"><label for="email" class="txt_lbl">Email</label></div>
-                    <div class="col-3 pl-0 "><input type="text" name="email" id="email" placeholder="ejemplo@prueba.com" class="txt_inp"></div>
+                <div class="row pt-3 py-4">
+                    <div class="col-3 pr-5 text-right"><label for="documento"  class="txt_lbl">Documento</label></div>
+                    <div class="col-3  "><input type="text" name="documento" id="documento" placeholder="Escriba su Numero de Documento" class="form-control"></div>
+                    <div class="col-2 pr-5 text-right"><label for="email" class="txt_lbl">Email</label></div>
+                    <div class="col-3"><input type="text" name="email" id="email" placeholder="ejemplo@prueba.com" class="form-control"></div>
+                </div>
+                <div class="row py-4 ">
+                    <div class="col-3 pr-5 text-right"><label for="direccion" class="txt_lbl">Dirección</label></div>
+                    <div class="col-3"><input type="text" name="direccion" id="direccion" placeholder="Escriba su Dirección" class="form-control"></div>
+                    <div class="col-2 pr-5 text-right"><label for="telefono" class="txt_lbl">Teléfono</label></div>
+                    <div class="col-3"><input type="text" name="telefono" id="telefono" placeholder="Escriba su Numero de Teléfono" class="form-control"></div>
+                </div>
+
+                <div class="row py-3">
+                    <div class="col-3 pr-5 text-right"><label for="fecha_exam" class="txt_lbl">Fecha del Examen</label></div>
+                    <div class="col-3"><input type="date" name="fecha_exam" id="fecha_exam" class="form-control txt_hora"></div>
+                    <div class="col-2 pr-5 text-right"><label for="hora" class="txt_lbl">Hora</label></div>
+                    <div class="col-3"><input type="time" name="hora" id="hora" class="form-control"></div>
+                </div>
+
+
+                <div class="row py-4">
+                    <div class="col-3 pr-5 text-right"><label for="institucion" class="txt_lbl_ind">Institución a la que va dirigido el examen </label></div>
+                    <div class="col-6"><input type="text" name="institucion" id="institucion" placeholder="Nombre de la Institución"  class="form-control"></div>
                 </div>
                 <div class="row py-3">
-                    <div class="col-3 pl-5 text-left"><label for="direccion" class="txt_lbl">Dirección</label></div>
-                    <div class="col-3 pl-0"><input type="text" name="direccion" id="direccion" placeholder="Escriba su Dirección" class="txt_inp"></div>
-                    <div class="col-2 pl-5 text-left"><label for="telefono" class="txt_lbl">Teléfono</label></div>
-                    <div class="col-3 pl-0"><input type="text" name="telefono" id="telefono" placeholder="Escriba su Numero de Teléfono" class="txt_inp"></div>
-                </div>
-                <div class="row py-2">
-                    <div class="col-5 pl-5 text-left"><label for="institucion" class="txt_lbl_ind">Institución a la que va dirigido el examen </label></div>
-                    <div class="col-6 pl-0"><input type="text" name="institucion" id="institucion" placeholder="Nombre de la Institución"  class="txt_inp"></div>
-                </div>
-                <div class="row py-2">
                     
-                        <div class="col-5 pl-5 text-left"><label for="tipo_examen" class="txt_lbl">Que tipo de examen va a realizar</label></div>
-                        <div class="col-2 pl-0" >
+                        <div class="col-3 pr-5 text-right"><label for="tipo_examen" class="txt_lbl">Que tipo de examen va a realizar</label></div>
+                        <div class="col-2 " >
                             <input type="radio" name="General" value=1 class="mr-1">  Linguaskill General
                         </div>
                         <div class="col-4">
@@ -50,10 +59,10 @@
                         
                     
                 </div>
-                <div class="row pt-2">
+                <div class="row pt-2 py-">
                     
-                        <div class="col-5 pl-5 text-left"><label for="modulos" class="txt_lbl">Módulos a realizar</label></div>
-                        <div class="col-2 pl-0">
+                        <div class="col-3 pr-5 text-right"><label for="modulos" class="txt_lbl">Módulos a realizar</label></div>
+                        <div class="col-2 ">
                             <input type="radio" name="tres_modulos" value=1 class="mr-1">Tres Módulos
                         </div >
                         <div class="col-2">
@@ -65,12 +74,7 @@
                         
                         
                 </div>
-                <div class="row py-3">
-                    <div class="col-3 pl-5 text-left"><label for="fecha_exam" class="txt_lbl">Fecha del Examen</label></div>
-                    <div class="col-3"><input type="date" name="fecha_exam" id="fecha_exam" class="txt_inp"></div>
-                    <div class="col-2 pl-5 text-left"><label for="hora" class="txt_lbl">Hora</label></div>
-                    <div class="col-3 pl-0"><input type="time" name="hora" id="hora" class="txt_inp"></div>
-                </div>
+
 
                 <div class="row pt-5">
                     <div class="col-4 text-center">
