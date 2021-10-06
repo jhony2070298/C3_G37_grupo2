@@ -9,19 +9,16 @@
   </head>
   <body>
       <div class="container">
-          <div class="col align-self-start">
-          <label for="fecha">Fecha</label>
-          <input type="date" name="fecha" id="fecha"> 
-        </div>
-        <div class="col align-self-start">
-          <label for="documento">Buscar documento</label>
-          <input type="search" name="documento" id="documento">
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-              <br></br>
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Documento">
+            </div>
+            <div class="col">
+              <input type="date" class="form-control" placeholder="Fecha">
             </div>
           </div>
+        </form>
         <table class="table">
         <thead>
           <tr>
